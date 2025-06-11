@@ -30,13 +30,14 @@
         "x86_64-unknown-linux-musl",
         "aarch64-unknown-linux-musl",
         "aarch64-pc-windows-msvc",
-        "wasm32-wasip1-threads"
+        "wasm32-wasip1-threads",
+        "s390x-unknown-linux-gnu"
       ]
     }
   },
   "devDependencies": {
     "@napi-rs/cli": "2.18.0",
     "cross-env": "6.0.3",
-    "wasm-pack": "0.13.1"
+    "wasm-pack": "file:../../../wasm-pack/npm"
   }
 }
